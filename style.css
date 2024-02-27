@@ -1,0 +1,68 @@
+.container{
+    display: grid;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+background-color: dodgerblue;
+padding: 10px;
+display: grid;
+  grid-template-areas:
+    "header header header"
+    
+    "menu menu menu"
+    "Box1   Box2  Sidebar"
+    "Box1   Box2  Sidebar"
+    "kk kk  Sidebar"
+    "kk kk Sidebar"
+    "Footer Footer Footer";
+    grid-template-columns: repeat(3,1fr);
+
+
+
+}
+
+
+.con{
+    margin: 10px;
+    border-color: snow;
+    border-style: solid;
+    border-width: 3px;
+    
+}
+
+.header{
+    background-color: orange;
+    grid-area: header;
+}
+
+.menu{
+    
+    background-color: greenyellow;
+    grid-area: menu;
+}
+
+.Box1{
+    background-color: blueviolet;
+    grid-area: Box1;
+}
+
+.Box2{
+    background-color: pink;
+    grid-area: Box2;
+}
+/* .co{
+    background-color: greenyellow; */
+
+
+.kk{
+    background-color: yellowgreen;
+    grid-area: kk;
+}
+.Sidebar{
+    background-color: blue;
+    grid-area: Sidebar;
+}
+.Footer{
+    background-color: chocolate;
+    grid-area: Footer;
+}
